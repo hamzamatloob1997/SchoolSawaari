@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "143819750274",
+    "project_id": "schoolsawari-f32b2",
+    "storage_bucket": "schoolsawari-f32b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143819750274:android:53a4eb937316857ef46d9b",
+        "android_client_info": {
+          "package_name": "com.example.schoolsawari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143819750274-qqf0revv2n61gsrfp54jvfgcvoogpm7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA3u73Q1eaN2RBSAdoighFafGYdGFwV-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143819750274-qqf0revv2n61gsrfp54jvfgcvoogpm7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

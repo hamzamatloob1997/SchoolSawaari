@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="450dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_activity"
+    >
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Your Drive status"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        ></TextView>
+    <RadioGroup
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <RadioButton
+            android:id="@+id/PFH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pick Up From Home"/>
+        <RadioButton
+            android:id="@+id/DOS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drop Off School"/>
+        <RadioButton
+            android:id="@+id/PUFS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pick Up From School"/>
+        <RadioButton
+            android:id="@+id/DOH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drop Off Home"/>
+
+    </RadioGroup>
+
+    <android.widget.Button
+        android:id="@+id/update"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_butn"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:text="Update Status"
+        />
+
+</LinearLayout>
